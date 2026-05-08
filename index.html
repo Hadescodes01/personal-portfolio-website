@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thanaa Alamutu | Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER / HERO -->
+  <div id="header">
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#hobbies">Hobbies</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <h1>Hello! I'm Thanaa Alamutu</h1>
+        <p>Systems Engineering Student &nbsp;|&nbsp; Aspiring Software Developer &nbsp;|&nbsp; Robotics Enthusiast</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <div class="about-slideshow">
+            <div class="about-slide active" style="background-image: url('3.jpg'); background-position: center 20%;"></div>
+            <div class="about-slide" style="background-image: url('1.jpg'); background-position: center 15%;"></div>
+            <div class="about-slide" style="background-image: url('2.jpg'); background-position: center center;"></div>
+            <div class="about-slide" style="background-image: url('4.jpg'); background-position: center 15%;"></div>
+            <div class="about-slide" style="background-image: url('5.jpg'); background-position: center center;"></div>
+          </div>
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a Year 3 Systems Engineering student at the University of Lagos
+            with a growing passion for technology, robotics, and software development.</p>
+          <p>I enjoy building things, experimenting with code, solving problems creatively,
+            and learning how digital systems interact with the physical world.</p>
+          <p>Beyond engineering, I also have experience in writing, communication,
+            and teamwork, which helps me collaborate effectively in diverse environments.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+            <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+            <p class="tab-links" onclick="opentab('Education', event)">Education</p>
+          </div>
+
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Programming</span><br>HTML, CSS, Python</li>
+              <li><span>Design</span><br>Autodesk Fusion 360 — Simulation and Design</li>
+              <li><span>Computer Literacy</span><br>Microsoft Word, Excel, PowerPoint, OneNote, Project</li>
+              <li><span>Soft Skills</span><br>Public Speaking, Teamwork, Problem Solving, Time Management</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>Jun 2022 – Present</span><br>Personal Assistant — Family Business</li>
+              <li><span>Nov 2024 – Apr 2025</span><br>Freelance Writer — MegaNovel</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>2024 – 2028</span><br>University of Lagos<br>BSc Systems Engineering</li>
+              <li><span>2017 – 2023</span><br>Our Lady of Apostles Secondary School<br>WAEC, NECO, GCE passes</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ACHIEVEMENTS -->
+  <section id="achievements">
+    <div class="container">
+      <h1 class="sub-title">Achievements</h1>
+      <div class="cards-row">
+
+        <div class="card">
+          <div class="card-icon">⚡</div>
+          <h3>NEF 10th Africa Energy Innovation Challenge</h3>
+          <p>Pitched an intelligent hybrid power solution for farms using solar energy and the national grid — featuring an automatic switch to prevent production downtime.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">💻</div>
+          <h3>Volunteer — PyClub PR &amp; Communications</h3>
+          <p>Assisted with awareness campaigns, communication, and community engagement initiatives, helping build visibility and collaboration among members.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon">🏅</div>
+          <h3>Gold Medalist — Badminton</h3>
+          <p>Represented Systems Engineering in the University of Lagos Engineering Society Games, achieving first place through discipline, teamwork, and competitive spirit.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- HOBBIES -->
+  <section id="hobbies">
+    <div class="container">
+      <h1 class="sub-title">Hobbies &amp; Interests</h1>
+      <div class="hobbies-row">
+        <div class="hobby-item">
+          <span class="hobby-icon">🤖</span>
+          <p>Robotics</p>
+        </div>
+        <div class="hobby-item">
+          <span class="hobby-icon">🖥️</span>
+          <p>Programming</p>
+        </div>
+        <div class="hobby-item">
+          <span class="hobby-icon">✍️</span>
+          <p>Creative Writing</p>
+        </div>
+        <div class="hobby-item">
+          <span class="hobby-icon">🏸</span>
+          <p>Badminton</p>
+        </div>
+        <div class="hobby-item">
+          <span class="hobby-icon">🌍</span>
+          <p>Languages</p>
+        </div>
+        <div class="hobby-item">
+          <span class="hobby-icon">🎧</span>
+          <p>Music</p>
+        </div>
+      </div>
+      <p class="languages-note">Languages spoken: <span>English</span> &amp; <span>Romanian</span></p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <h1 class="sub-title">Contact Me</h1>
+      <div class="contact-container">
+        <div class="contact-info">
+          <p>📧 <a href="mailto:alamututhanaa@gmail.com">alamututhanaa@gmail.com</a></p>
+          <p>📞 08081316923</p>
+          <p>📍 14 Olufemi Street, Off Nathan Road, Surulere, Lagos, Nigeria</p>
+        </div>
+        <a href="mailto:alamututhanaa@gmail.com" class="btn">Send Email</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Thanaa Alamutu</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+
+</body>
+</html>
